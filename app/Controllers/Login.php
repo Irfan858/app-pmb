@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
+use App\Models\UserModel;
 use Config\View;
 
 class Login extends BaseController
@@ -12,6 +13,14 @@ class Login extends BaseController
     protected $M_User;
     protected $session;
 
+    // Construct
+    public function __construct()
+    {
+        $this->encrypter = \Config\Services::encrypter();
+        $this->form_validation = \Config\Services::validation();
+        $this->M_User = new UserModel();
+        $this->session = \Config\Services::session();
+    }
     //Halaman Login
     public function index()
     {

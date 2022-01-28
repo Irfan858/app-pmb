@@ -50,7 +50,7 @@
                                     <span class="input-group-text" id="basic-addon1"><i class="icofont-email"></i></span>
                                 </div>
                                 <input type="text" class="form-control" name="email" placeholder="Email">
-                                <small id="email_error" class="form-text text-danger mb-3"></small>
+                                <small id="email_error" class="form-text text-danger mb-3 ml-2"></small>
                             </div>
 
                             <div class="input-group mb-2">
@@ -58,7 +58,7 @@
                                     <span class="input-group-text" id="basic-addon1"><i id="show-password" class="icofont-eye-blocked"></i></span>
                                 </div>
                                 <input type="password" name="password" id="password" class="form-control" placeholder="Password">
-                                <small id="password_error" class="form-text text-danger mb-3"></small>
+                                <small id="password_error" class="form-text text-danger mb-3 ml-2"></small>
                             </div>
 
                             <div class="text-center mb-2">
