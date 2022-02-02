@@ -35,7 +35,7 @@ class Database extends Config
         'hostname' => 'localhost',
         'username' => 'irfan',
         'password' => 'irfan858',
-        'database' => 'db_app_pmb',
+        'database' => 'app-pmb-sample',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,
